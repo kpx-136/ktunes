@@ -15,7 +15,7 @@ export const AlbumPage = () => {
     return(
         <div id = "albumPage">
             <div id = "imageSection">
-                <img src = {`./src/assets/${album.id}.jpg`} alt = "album cover" />
+                <img src = {`${import.meta.env.BASE_URL}/assets/${album.id}.jpg`} alt = "album cover" />
             </div>
             <div id = "contentSection">
 
